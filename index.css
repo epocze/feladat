@@ -1,0 +1,55 @@
+.container{
+    max-width: 1000px;
+    padding: 20px;
+    background-color: rgb(172,243,243);
+    margin: 0 auto;
+}
+h2, h1{
+    color:blue;
+}
+p{
+    text-align: justify; /*sorkizárt?*//*behúzás*/ /*7*/
+    text-indent: 1rem;
+}
+.kep-tarolo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.felkover{
+    font-weight:bold;
+    color: blue;
+}
+html
+{
+    background-image: url("hatter.jpg");
+}
+table{
+    margin: 0 auto;
+    border: 1px solid blue;
+    text-align: center;
+}
+th{
+    padding: 5px;
+    background-color: blue;
+    color: white
+}
+.kepdoboz{
+    border-radius: 5%;
+    max-width: 200px;
+    box-shadow:0 0 5px blue;
+}
+.kep{
+    max-width: 200px;
+}
+td{
+    padding: 5px;
+}
+.felirat{
+    color:blue;
+    text-align: center;
+}
+.link{
+    text-align: right;
+}
